@@ -2,6 +2,30 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+p {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.btn {
+    padding: 10px 30px;
+
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+
+    letter-spacing: .1em;
+    text-transform: uppercase;
+
+    color: #fec63e;
+    border: 3px solid #fec63e;
+}
+.btn:hover {
+    color: #fff;
+    border-color: #fff;
+}
 /*Header*/
 
 .header {
@@ -39,3 +63,56 @@ body {
 }
 
 /*introdução*/
+
+.introducao {
+    width: 100%;
+    height: 380px;
+    padding-top: 80px;
+    margin-top: 96px;
+
+    text-align: center;
+
+    background: url("../img/bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.introducao h1 {
+    font-size: 48px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.quote-externo {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    color: white;
+}
+
+.quote-externo p {
+    font-style: italic;
+}
+
+.quote-externo p:before,
+.quote-externo p:after {
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 14px auto 10px auto;
+
+    content: "";
+
+    background: #fff;
+}
+
+.quote-externo cite {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+
+    letter-spacing: .1em;
+}
