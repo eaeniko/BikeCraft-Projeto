@@ -26,6 +26,27 @@ p {
     color: #fff;
     border-color: #fff;
 }
+.subtitulo {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+
+    text-align: center;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+
+    color: #000;
+}
+.subtitulo:after {
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 8px auto;
+
+    content: "";
+
+    background: #000;
+}
 /*Header*/
 
 .header {
@@ -68,7 +89,7 @@ p {
     width: 100%;
     height: 380px;
     padding-top: 80px;
-    margin-top: 96px;
+    margin-top: 90px;
 
     text-align: center;
 
@@ -115,4 +136,10 @@ p {
     font-weight: bold;
 
     letter-spacing: .1em;
+}
+
+/*produtos */
+
+.produtos {
+    padding: 60px 0;
 }
