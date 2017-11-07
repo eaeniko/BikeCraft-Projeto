@@ -26,7 +26,13 @@ p {
     color: #fff;
     border-color: #fff;
 }
+.btn.btn-preto:hover {
+    color: #000;
+    border-color: #000;
+}
 .subtitulo {
+    margin-bottom: 40px;
+
     font-size: 24px;
     font-weight: bold;
     line-height: 30px;
@@ -52,6 +58,7 @@ p {
 .header {
     position: fixed;
     top: 0;
+    z-index: 10;
 
     width: 100%;
     padding: 15px 0;
@@ -142,4 +149,46 @@ p {
 
 .produtos {
     padding: 60px 0;
+}
+.produtos-lista li {
+    text-align: center;
+
+    background: #fec63e;
+}
+.produtos-lista h3 {
+    margin-top: 20px;
+
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.produtos-lista li h3:after {
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 2px auto;
+
+    content: "";
+
+    background: #000;
+}
+.produtos-lista li p {
+    padding: 10px 20px 20px 20px;
+}
+.produtos-icon {
+    padding: 20px;
+
+    background: #000;
+}
+.cta {
+    padding-top: 40px;
+    clear: both;
+
+    text-align: center;
+}
+.cta p {
+    margin-bottom: 20px;
 }
