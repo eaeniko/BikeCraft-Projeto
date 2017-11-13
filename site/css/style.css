@@ -192,3 +192,24 @@ p {
 .cta p {
     margin-bottom: 20px;
 }
+
+/* Portfólio*/
+
+.portfolio {
+    width: 100%;
+    padding: 40px 0;
+
+    background: #000;
+}
+.portfolio .subtitulo {
+    color: #fec63e;
+}
+.portfolio .subtitulo:after {
+    background: #fec63e;
+}
+.portfolio-lista li:last-child {
+    margin-top: 20px;
+}
+.portfolio .cta p {
+    color: #fff;
+}
