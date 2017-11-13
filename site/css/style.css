@@ -9,6 +9,10 @@ p {
     line-height: 20px;
 }
 
+img {
+    display: block;
+}
+
 .btn {
     padding: 10px 30px;
 
@@ -150,6 +154,9 @@ p {
 .produtos {
     padding: 60px 0;
 }
+.produtos img {
+    display: inline-block;
+}
 .produtos-lista li {
     text-align: center;
 
@@ -212,4 +219,55 @@ p {
 }
 .portfolio .cta p {
     color: #fff;
+}
+
+/* Qualidade*/
+
+.qualidade {
+    padding: 60px 0;
+}
+.qualidade:after {
+    position: absolute;
+    top: 209px;
+    right: 162px;
+    z-index: -1;
+
+    display: block;
+    width: 634px;
+    height: 83px;
+
+    content: "";
+
+    background: url("../img/linhas.png") no-repeat center;
+}
+.qualidade img {
+    margin: 0 auto;
+}
+.qualidade-lista {
+    padding-top: 20px;
+}
+.qualidade-lista li {
+    padding: 0 40px;
+
+    text-align: center;
+}
+.qualidade-lista h3 {
+    margin-top: 20px;
+
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.qualidade-lista li h3:after {
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 6px auto;
+
+    content: "";
+
+    background: #000;
 }
