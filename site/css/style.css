@@ -6,6 +6,7 @@ body {
 p {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 14px;
+    font-weight: bold;
     line-height: 20px;
 }
 
@@ -270,4 +271,79 @@ img {
     content: "";
 
     background: #000;
+}
+
+/*Quebra*/
+
+.quebra {
+    width: 100%;
+    height: 220px;
+    padding-top: 40px;
+
+    text-align: center;
+
+    background: url("../img/bg-footer.jpg") no-repeat center;
+    background-size: cover;
+}
+.quebra .quote-externo {
+    max-width: 400px;
+}
+
+/*Footer*/
+
+.footer {
+    width: 100%;
+    padding: 20px 0;
+
+    color: #fff;
+    background: #000;
+}
+.footer h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+
+    letter-spacing: .1em;
+    text-transform: uppercase;
+
+    color: #fec63e;
+}
+
+.footer h3:after {
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 6px 0 12px 0;
+
+    content: "";
+
+    background: #fec63e;
+}
+.footer-historia {
+    padding-right: 40px;
+}
+.footer-contato li {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-social a {
+    display: block;
+    padding: 10px;
+
+    border: 3px solid #fec63c;
+}
+.footer-social a:hover {
+    border-color: #fff;
+}
+.copy {
+    width: 100%;
+    padding: 20px 0;
+
+    background: #fec63c;
 }
