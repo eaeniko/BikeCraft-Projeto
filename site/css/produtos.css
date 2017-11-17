@@ -155,8 +155,8 @@
     font-size: 18px;
     line-height: 30px;
 }
-.dados-email {
-    margin-bottom: 40px;
+.orcamento-dados span:nth-of-type(2) {
+    margin-bottom: 30px;
 }
 .orcamento-dados ul {
     padding-right: 60px;
